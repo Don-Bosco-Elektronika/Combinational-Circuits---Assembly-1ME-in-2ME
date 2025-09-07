@@ -21,14 +21,17 @@ Simulate the assembly and verify the operation of the following integrated circu
 
 ## 🔲 Circuitos a Simular
 
-- **7486** → XOR  
-- **7432** → OR  
-- **4082** → AND
-- **7405** → NOT
-- **7402** → NOR  
-- **7400** → NAND  
-- **7404** → NOT  
-- **7408** → AND  
+| **Gates** | **Imagen** |
+|-----------|------------|
+| **7486** → XOR  | ![XOR](imagen_xor.png) |
+| **7432** → OR   | ![OR](imagen_or.png) |
+| **4082** → AND  | ![AND](imagen_and.png) |
+| **7405** → NOT (open-collector) | ![NOT](imagen_not.png) |
+| **7402** → NOR  | ![NOR](imagen_nor.png) |
+| **7400** → NAND | ![NAND](imagen_nand.png) |
+| **7404** → NOT  | ![NOT](imagen_not.png) |
+| **7408** → AND  | ![AND](imagen_and.png) |
+
 
 ---
 
@@ -36,8 +39,8 @@ Simulate the assembly and verify the operation of the following integrated circu
 
 ➡️ **Instrucciones:**  
 
-- **ES:** Sube un archivo por cada circuito del Simulador Digital Protoboard (8 en total), utilizando una sola puerta de cada chip. Además, incluye una foto (8 en total) de cada montaje en el archivo INSTRUCTIONS.MD. Recuerda que este archivo está escrito en formato Markdown, por lo que deberás seguir su sintaxis correctamente.  
-- **EU:** Kargatu zirkuitu bakoitzeko fitxategi bat Simulador Digital Protoboard-en (8 guztira), chip bakoitzeko ate bat erabiliz. Gainera, jarri muntaketa bakoitzaren argazkia (8 guztira) INSTRUCTIONS.MD fitxategian. Gogoratu fitxategi hau Markdown formatuan idatzita dagoela, beraz, bere sintaxiari jarraitu beharko diozu.
-- **EN:** Upload one file for each circuit from the Digital Protoboard Simulator (8 in total), using a single gate from each chip. Additionally, insert a photo (8 in total) of each assembly into the INSTRUCTIONS.MD file. Keep in mind that this file is written in Markdown format, so you must follow its syntax correctly.
+- **ES:** Sube un archivo por cada circuito del Simulador Digital Protoboard (8 en total), utilizando una sola puerta de cada chip, con su pull-up... Además, incluye una foto (8 en total) de cada montaje en el archivo INSTRUCTIONS.MD en la columna Imagen. Recuerda que este archivo está escrito en formato Markdown, por lo que deberás seguir su sintaxis correctamente. Todos los archivos subidos han de tener tu nombre. 
+- **EU:** Kargatu zirkuitu bakoitzeko fitxategi bat Simulador Digital Protoboard-en (8 guztira), chip bakoitzeko ate bat erabiliz, pull-up... Gainera, jarri muntaketa bakoitzaren argazkia (8 guztira) INSTRUCTIONS.MD fitxategian, Imagen zutabean. Gogoratu fitxategi hau Markdown formatuan idatzita dagoela, beraz, bere sintaxiari jarraitu beharko diozu. Igotako archivo guztiak zure izena eduki beharko dute.
+- **EN:** Upload one file for each circuit from the Digital Protoboard Simulator (8 in total), using a single gate from each chip with pull-up... Additionally, insert a photo (8 in total) of each assembly into the INSTRUCTIONS.MD file in the Imagen column. Keep in mind that this file is written in Markdown format, so you must follow its syntax correctly. All uploaded files must have your name.
 
 
