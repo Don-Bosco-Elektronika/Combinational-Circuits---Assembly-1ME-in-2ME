@@ -20,7 +20,7 @@ jobs:
           echo "ArchivoTxt=8" >> $GITHUB_ENV
           echo "ArchivoImagen=8" >> $GITHUB_ENV
 
-      - name: Verifica si se sube 1 archivo Txt
+      - name: Verifica si se sube 8 archivo Txt
         run: |
           test $(ls -1 *.txt | wc -l) -eq ${{ env.ArchivoTxt }} || (echo "ERROR: NUMERO DE ARCHIVOS .pdsprj SUBIDOS INCORRECTO" && exit 1)
           # -eq ${{ env.ArchivoTxt }} ahora usa la variable de entorno
@@ -37,4 +37,3 @@ jobs:
       - name: Verificar tu nombre en los archivos jpeg|jpg|png
         run: |
           ls -1 *.(jpeg|jpg|png) | grep ${{ github.actor }} || (echo "ERROR: UN ARCHIVO PDSPRJ NO TIENE TU NOMBRE" && exit 1)
-          ls -1 *.pdsprj | grep ${{ github.actor }} || (echo "ERROR: UN ARCHIVO PDSPRJ NO TIENE TU NOMBRE" && exit 1)
